@@ -112,4 +112,4 @@
 
 ### Task 21: Replace Text, Not Code
 - `regular expression`: /(?:<.*?>|&\w++;)(*SKIP)(*F)|micro/g
-- `substitution`: &micro;
+- `substitution`: '&micro';
