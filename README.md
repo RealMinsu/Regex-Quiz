@@ -4,8 +4,8 @@
 ## Regex Study
 <pre>
 <code>
-# test
-+ test
+# Validate Phone Numbers
+ -- regular expression: /^010-[02-9](\d{3})-\d{4}/
 </code>
 </pre>
 
