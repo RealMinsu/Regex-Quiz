@@ -4,7 +4,7 @@
 ### Task 1: Word Boundaries
 <pre>
 <code>
-'regular expression': \b[wW][oO][rR][dD]\b
+- `regular expression`: \b[wW][oO][rR][dD]\b
 </code>
 </pre>
 
