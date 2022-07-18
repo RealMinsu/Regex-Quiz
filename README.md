@@ -69,30 +69,26 @@ test
 - `regular expression`: /(?!(?<=\d)\.(?=\d))\./g
 - `substitution`: -
 
-### Task :
-- `regular expression`: 
+### Task 16: Repeated Words
+- `regular expression`: /(?=(\b\w{4,}\b)(?:.*?\b\1\b.*?){2})(?!(\b\w{4,}\b)(?:.*?\b\1\b.*?){3})/gi
 - `substitution`: 
 
-### Task :
-- `regular expression`: 
+### Task 17: Start Before End
+- `regular expression`: /^(?:(?!end).)*start.*/
 - `substitution`: 
 
-### Task :
-- `regular expression`: 
+### Task : Every Other Digit
+- `regular expression`: /\G((?:.\D)*.)\d/g
+- `substitution`: $1*
+
+### Task 19: The Thousands
+- `regular expression`: /(?=\b\d|\G)\d+?(?=(?:\d{3})+\b)/g
+- `substitution`: $0,
+
+### Task 20: Quoted Text With Escapes
+- `regular expression`: /^"([^"\\]*(?:\\.[^"\\]*)*)"$/
 - `substitution`: 
 
-### Task :
-- `regular expression`: 
-- `substitution`: 
-
-### Task :
-- `regular expression`: 
-- `substitution`: 
-
-### Task :
-- `regular expression`: 
-- `substitution`: 
-
-### Task :
-- `regular expression`: 
-- `substitution`: 
+### Task 21: Replace Text, Not Code
+- `regular expression`: /(?:<.*?>|&\w++;)(*SKIP)(*F)|micro/g
+- `substitution`: &micro;
