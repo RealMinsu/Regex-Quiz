@@ -17,4 +17,5 @@ substitution: I
 </pre>
 
 ### Test3: asdf
-'test': qwerqewr
+- `test`: qwerqewr
+- `aop` - 개발 단계에서 로깅을 위해서 사용합니다. (LoggingAspectConfiguration을 통해 dev 프로필 활성화시 사용)
