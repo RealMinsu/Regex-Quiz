@@ -21,6 +21,11 @@
  
  # Search for the exclusion of specific words
   └──  (?:\b(?!("a particular word")).+?\b)|((?<="a particular word")\D)
+  
+ # Encryption Name
+  └──  (?!^.).
+  └──  *
+  
 </code>
 </pre>
 
