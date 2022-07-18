@@ -1,6 +1,6 @@
 # Regex-Quiz
 
--Task 1: Word Boundaries
+- Task 1: Word Boundaries
 + **regular expression**: \b[wW][oO][rR][dD]\b
 
 Task 2: Capitalizing!
