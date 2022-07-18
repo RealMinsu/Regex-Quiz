@@ -1,12 +1,17 @@
 # Regex-Quiz
 
 
-### Task 1: Word Boundaries
+## Regex Study
 <pre>
 <code>
-- `regular expression`: \b[wW][oO][rR][dD]\b
+test
 </code>
 </pre>
+
+
+### Task 1: Word Boundaries
+- `regular expression`: \b[wW][oO][rR][dD]\b
+- `substitution`:
 
 ### Task 2: Capitalizing!
 <pre>
@@ -16,6 +21,18 @@ substitution: I
 </code>
 </pre>
 
-### Test3: asdf
-- `test`: qwerqewr
-- `aop` - 개발 단계에서 로깅을 위해서 사용합니다. (LoggingAspectConfiguration을 통해 dev 프로필 활성화시 사용)
+### Task 3: Uppercase Consonants
+- `regular expression`: /[^AEIOUa-z_\W\d]/g
+- `substitution`:
+
+### Task 4: Retrive Numbers
+- `regular expression`: /\d+/g
+- `substitution`:
+
+### Task 5: White Space
+- `regular expression`: /\s{4,}/g
+- `substitution`:
+
+### Task 6: Broken Keyboard
+- `regular expression`: /(.)\1{2}/g
+- `substitution`: $1
