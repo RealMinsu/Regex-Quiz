@@ -6,25 +6,31 @@
 <code>
 # Validate Phone Numbers
  └──  regular expression: /^010-[02-9](\d{3})-\d{4}/
+ └──  substitution :
  
 # Include blank (ENG)
- └──  /(?<=")\s?[a-z]+\s?/
-  
+ └──  regular expression: /(?<=")\s?[a-z]+\s?/
+ └──  substitution :
+   
 # Not Include Blank (ENG)
- └──  /(?<=")[a-z]+(?=")/
+ └──  regular expression: /(?<=")[a-z]+(?=")/
+ └──  substitution :
   
 # Include Blank (KOR)
- └──  /(?<=")\s?[가-힇]+\s?/
+ └──  regular expression: /(?<=")\s?[가-힇]+\s?/
+ └──  substitution :
  
 # Not Include Blank (KOR)
- └──  /(?<=")[가-힇]+(?=")/
+ └──  regular expression: /(?<=")[가-힇]+(?=")/
+ └──  substitution :
  
  # Search for the exclusion of specific words
-  └──  (?:\b(?!("a particular word")).+?\b)|((?<="a particular word")\D)
+ └──  regular expression: (?:\b(?!("a particular word")).+?\b)|((?<="a particular word")\D)
+ └──  substitution :
   
  # Encryption Name
-  └──  (?!^.).
-  └──  *
+ └──  regular expression: (?!^.).
+ └──  substitution : '*'
   
 </code>
 </pre>
