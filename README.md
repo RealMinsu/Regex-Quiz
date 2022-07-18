@@ -1,8 +1,8 @@
 # Regex-Quiz
 
 Task 1: Word Boundaries
-\b[wW][oO][rR][dD]\b
+regular expression: \b[wW][oO][rR][dD]\b
 
 Task 2: Capitalizing!
-/\bi\b/i
-I
+regular expression: /\bi\b/g
+substitution: I
