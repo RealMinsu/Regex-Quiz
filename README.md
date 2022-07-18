@@ -11,7 +11,7 @@
 ### Task 2: Capitalizing!
 <pre>
 <code>
-+ regular expression: /\bi\b/g
-+ substitution: I
+regular expression: /\bi\b/g
+substitution: I
 </code>
 </pre>
