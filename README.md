@@ -5,15 +5,17 @@
 <pre>
 <code>
 # Validate Phone Numbers
- -- regular expression: /^010-[02-9](\d{3})-\d{4}/
+ └──  regular expression: /^010-[02-9](\d{3})-\d{4}/
 # Include blank (ENG)
- -- /(?<=")\s?[a-z]+\s?/
+ └──  /(?<=")\s?[a-z]+\s?/
 # Not Include Blank (ENG)
- -- /(?<=")[a-z]+(?=")/
+ └──  /(?<=")[a-z]+(?=")/
 # Include Blank (KOR)
- -- /(?<=")\s?[가-힇]+\s?/
+ └──  /(?<=")\s?[가-힇]+\s?/
+ 
 # Not Include Blank (KOR)
- -- /(?<=")[가-힇]+(?=")/
+ └──  /(?<=")[가-힇]+(?=")/
+ 
 </code>
 </pre>
 
