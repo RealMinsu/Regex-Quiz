@@ -36,7 +36,7 @@
 
 ### Task 2: Capitalizing!
 - `regular expression`: /\bi\b/g
-- `substitution`: I
+- `substitution`: 'I'
 
 ### Task 3: Uppercase Consonants
 - `regular expression`: /[^AEIOUa-z_\W\d]/g
@@ -52,7 +52,7 @@
 
 ### Task 6: Broken Keyboard
 - `regular expression`: /(.)\1{2}/g
-- `substitution`: $1
+- `substitution`: '$1'
 
 ### Task 7: Vaildation IP
 - `regular expression`: /^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)$/
@@ -88,7 +88,7 @@
 
 ### Task 15: Not Surrounded By Digits
 - `regular expression`: /(?!(?<=\d)\.(?=\d))\./g
-- `substitution`: -
+- `substitution`: '-'
 
 ### Task 16: Repeated Words
 - `regular expression`: /(?=(\b\w{4,}\b)(?:.*?\b\1\b.*?){2})(?!(\b\w{4,}\b)(?:.*?\b\1\b.*?){3})/gi
@@ -100,11 +100,11 @@
 
 ### Task : Every Other Digit
 - `regular expression`: /\G((?:.\D)*.)\d/g
-- `substitution`: $1*
+- `substitution`: '$1*'
 
 ### Task 19: The Thousands
 - `regular expression`: /(?=\b\d|\G)\d+?(?=(?:\d{3})+\b)/g
-- `substitution`: $0,
+- `substitution`: '$0',
 
 ### Task 20: Quoted Text With Escapes
 - `regular expression`: /^"([^"\\]*(?:\\.[^"\\]*)*)"$/
