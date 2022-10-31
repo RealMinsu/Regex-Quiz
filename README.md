@@ -88,12 +88,47 @@ It can be 'a', '(', '@'
 (\d)(\s) --> $1 $2
 <hr/>
 
-- `` : 
+- `[]` : 
 - `Similar Expression` : 
 - `Target` : 
 <hr/>
 
-- `` : 
+- `^` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `$` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `[^]` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `{}` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `|` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `.` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `+` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `*` : 
 - `Similar Expression` : 
 - `Target` : 
 <hr/>
