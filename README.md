@@ -36,7 +36,7 @@
 
 ## How to use Regex?
 
-### `\d` : Decimal
+- `\d` : Decimal
 - `Similar Expression` : [0-9]
 - `Target` : 0 / 1 / 2 / ... / 9
 <hr/>
@@ -44,7 +44,7 @@
 - `Similar Expression` : [^0-9]
 - `Target` : Everything Except
 0 / 1 / 2 / ... / 9
-
+<hr/>
 
 
 ## Regex Quiz
