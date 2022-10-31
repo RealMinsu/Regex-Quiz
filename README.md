@@ -36,6 +36,9 @@
 
 ## How to use Regex?
 
+I use '~~' means every String
+It can be 'a', '(', '@'
+
 - `\d` : Decimal
 - `Similar Expression` : [0-9]
 - `Target` : 0 / 1 / 2 / ... / 9
@@ -46,6 +49,10 @@
 - `Target` : Everything Except 0 / 1 / 2 / ... / 9
 <hr/>
 
+- `~~?` : May or may not be
+- `Similar Expression` : ~~{0,}
+- `Target` : ~~? --> ~~
+<hr/>
 
 ## Regex Quiz
 
