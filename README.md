@@ -76,14 +76,16 @@ It can be 'a', '(', '@'
 - `Target` : Everything Except ' '
 <hr/>
 
-- `` : 
+- `\` : Ignore what behind of '\'
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : \( --> (
 <hr/>
 
-- `` : 
+- `()` : Capture
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : (\d) --> \d --> 0, 1, 100, ...
+- you can use $1 when you capture
+(\d)(\s) --> $1 $2
 <hr/>
 
 - `` : 
