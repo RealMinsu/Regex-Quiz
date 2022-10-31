@@ -1,7 +1,7 @@
 # Organize what I studied by Regex
 
 ## Message to Everyone who read this :)
-- you can ask question about Regex
+- you can ask any question about Regex
 - please let me know if there is anything wrong or a misleading possession
 - please let me know anything that is not been written
 - let's share information for Regex
@@ -64,6 +64,26 @@ It can be 'a', '(', '@'
 - `\W` : Exclude Alphabet or Decimal
 - `Similar Expression` : [^(([a-zA-Z])|([0-9]))]
 - `Target` : Everything Except Alphabet or Decimal
+<hr/>
+
+- `\s` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `\S` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `` : 
+- `Similar Expression` : 
+- `Target` : 
 <hr/>
 
 - `` : 
