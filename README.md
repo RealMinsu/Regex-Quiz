@@ -34,6 +34,12 @@
 </code>
 </pre>
 
+## How to use Regex?
+
+<pre>
+\d : decimal
+
+</pre>
 
 ## Regex Quiz
 
