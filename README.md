@@ -36,7 +36,6 @@
 
 ## How to use Regex?
 
-<pre>
 - `\d` : Decimal
 - `Similar Expression` : [0-9]
 - `Target` : 0 / 1 / 2 / ... / 9
@@ -47,7 +46,7 @@
 - `Target` : Everything Except
 0 / 1 / 2 / ... / 9
 
-</pre>
+
 
 ## Regex Quiz
 
