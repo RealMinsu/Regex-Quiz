@@ -37,11 +37,9 @@
 ## How to use Regex?
 
 ### `\d` : Decimal
-#### d
 - `Similar Expression` : [0-9]
 - `Target` : 0 / 1 / 2 / ... / 9
-
-
+<hr/>
 - `\D` : Exclude Decimal
 - `Similar Expression` : [^0-9]
 - `Target` : Everything Except
