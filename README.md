@@ -78,7 +78,7 @@ It can be 'a', '(', '@'
 
 - `\` : Ignore what behind of \
 - `Similar Expression` : 
-- `Target` : \( --> (
+- `Target` : '\( --> ('
 <hr/>
 
 - `()` : Capture
