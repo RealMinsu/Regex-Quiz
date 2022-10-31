@@ -49,9 +49,29 @@ It can be 'a', '(', '@'
 - `Target` : Everything Except 0 / 1 / 2 / ... / 9
 <hr/>
 
+- `\w` : Alphabet or Decimal
+- `Similar Expression` : ([a-zA-Z])|([0-9])
+- `Target` : Every Alphabet or Decimal
+<hr/>
+
+- `\W` : Exclude Alphabet or Decimal
+- `Similar Expression` : [^(([a-zA-Z])|([0-9]))]
+- `Target` : Everything Except Alphabet or Decimal
+<hr/>
+
+- `` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
+- `` : 
+- `Similar Expression` : 
+- `Target` : 
+<hr/>
+
 - `~~?` : May or may not be
 - `Similar Expression` : ~~{0,}
-- `Target` : ~~? --> ~~
+- `Target` : infront of '?'
 <hr/>
 
 ## Regex Quiz
