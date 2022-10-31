@@ -66,14 +66,14 @@ It can be 'a', '(', '@'
 - `Target` : Everything Except Alphabet or Decimal
 <hr/>
 
-- `\s` : 
+- `\s` : Space
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : ' '
 <hr/>
 
-- `\S` : 
+- `\S` : Exclude Space
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : Everything Except ' '
 <hr/>
 
 - `` : 
