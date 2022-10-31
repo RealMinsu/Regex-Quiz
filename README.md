@@ -76,9 +76,9 @@ It can be 'a', '(', '@'
 - `Target` : Everything Except ' '
 <hr/>
 
-- `\` : Ignore what behind of \
+- `\` : Ignore what behind of `\`
 - `Similar Expression` : 
-- `Target` : '\( --> ('
+- `Target` : `\( --> (`
 <hr/>
 
 - `()` : Capture
