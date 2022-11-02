@@ -90,7 +90,7 @@ It can be 'a', '(', '@'
 
 - `[]` : Match one of the characters in []
 - `Similar Expression` : |
-- `Target` : [abc] --> i `a`te `b``a`n`a`n`a` on `b`en`c`h
+- `Target` : [abc] --> i `a`te `ba`n`a`n`a` on `b`en`c`h
 <hr/>
 
 - `-` : Range
