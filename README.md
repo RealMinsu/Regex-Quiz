@@ -88,14 +88,19 @@ It can be 'a', '(', '@'
 (\d)(\s) --> $1 $2
 <hr/>
 
-- `[]` : 
-- `Similar Expression` : 
-- `Target` : 
+- `[]` : Match one of the characters in []
+- `Similar Expression` : |
+- `Target` : [abc] --> i `a`te `b``a`n`a`n`a` on `b`en`c`h
 <hr/>
 
-- `^` : 
+- `-` : Range
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : [0-9] --> 0, 1, 2, 3, 4, ..., 9
+<hr/>
+
+- `[^]` : Denial
+- `Similar Expression` : 
+- `Target` : [^\d] --> `i'm` 20 `years old`
 <hr/>
 
 - `$` : 
@@ -114,7 +119,7 @@ It can be 'a', '(', '@'
 <hr/>
 
 - `|` : 
-- `Similar Expression` : 
+- `Similar Expression` : []
 - `Target` : 
 <hr/>
 
