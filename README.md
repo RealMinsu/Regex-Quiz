@@ -103,39 +103,41 @@ It can be 'a', '(', '@'
 - `Target` : [^\d] --> `i'm` 20 `years old`
 <hr/>
 
-- `$` : 
+- `$` : At the very end of sentence
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : hi this is regex study` `
 <hr/>
 
-- `[^]` : 
+- `^` : The very front of sentence
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : ` `hi this is regex study
 <hr/>
 
-- `{}` : 
+- `{}` : Repetition
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : e{1, 3} --> hey / heey / heeey
+- e{2} --> heey
+- e{2,} --> heey / heeeeeey/
 <hr/>
 
-- `|` : 
+- `|` : Or
 - `Similar Expression` : []
-- `Target` : 
+- `Target` : (A|B)et --> aet / bet
 <hr/>
 
-- `.` : 
+- `.` : Everything
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : . --> a / 3 / ! / 가
 <hr/>
 
-- `+` : 
+- `+` : Find more than 1 previous characters
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : he+y --> hey / heey/ heeeeeey
 <hr/>
 
-- `*` : 
+- `*` : Find more than 0 previous characters
 - `Similar Expression` : 
-- `Target` : 
+- `Target` : he*y --> hy / hey / heey / heeeeeey
 <hr/>
 
 - `~~?` : May or may not be
